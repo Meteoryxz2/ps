@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD GENERATOR</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body onload="off()">
+    <div class="logo">
+        <img src="logo.png">
+        <h1>PASSWORD GENERATOR</h1>
+    </div>
+    
+    <div class="mainbox">
+        <h2 class="main2">You only have 3 attempts to generate</h2>
+    <div class="container">
+
+        <input id="vards" placeholder="First Name"><br>
+        <input id="uzvards" placeholder="Surname"><br>
+        <input id="pk" placeholder="Personal code">
+        <button id="poga" onclick="gen()">GENERATE</button>
+        <button id="poga2" onclick="del()">DELETE</button>
+
+  </div>
+
+        <div class="uhu" id="iznakums">
+        <p id="done"></p>
+        <p id="trys"></p>
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
